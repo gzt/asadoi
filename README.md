@@ -1,7 +1,7 @@
 # asadoi
 ASA bibiliography style file that includes support for DOIs
 
-I have here a modified version of the ASA (American Statistical Association) bibliography style file with added support for including DOI links in bibliography entries. I provide no guarantees about this file's desirability for the journal. 
+I have here a modified version of the ASA (American Statistical Association) bibliography style file with added support for including DOI links in bibliography entries. I provide no guarantees about this file's desirability for the journal. It requires the `url` and `hyperref` packages.
 
 The original file contains the following copyright information:
 
@@ -26,4 +26,4 @@ I provide the following files:
 
 * `asadoi.bst`: the bibliography style file.
 * `example.bib`: an example BiBTeX file.
-* `example.tex`: an example LaTeX file.
+* `example.tex`: an example LaTeX file. The file is based on the ASA template on Overleaf. Presumably, you have everything here that you need to write an article for an ASA journal that produces a bibliography containing DOI links with these three files. Let me know if anything is missing.
