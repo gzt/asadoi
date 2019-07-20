@@ -1,7 +1,7 @@
 # asadoi
 ASA bibiliography style file that includes support for DOIs
 
-I have here a modified version of the ASA (American Statistical Association) bibliography style file with added support for including a DOI link. I provide no guarantees about this file's desirability for the journal. 
+I have here a modified version of the ASA (American Statistical Association) bibliography style file with added support for including DOI links in bibliography entries. I provide no guarantees about this file's desirability for the journal. 
 
 The original file contains the following copyright information:
 
