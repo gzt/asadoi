@@ -1012,6 +1012,8 @@ FUNCTION {booklet}
   end.quote.title
   howpublished output
   address output
+  output.doi output
+  new.block
   format.note output
   fin.entry
 }
@@ -1048,6 +1050,8 @@ FUNCTION {inbook}
   if$
   format.edition output
   format.pages "pages" output.check
+  output.doi output
+  new.block
   format.note output
   fin.entry
 }
@@ -1074,6 +1078,8 @@ FUNCTION {incollection}
     }
   if$
   format.pages "pages" output.check
+  output.doi output
+  new.block
   format.note output
   fin.entry
 }
@@ -1125,6 +1131,8 @@ FUNCTION {manual}
   organization output
   address output
   format.edition output
+  output.doi output
+  new.block
   format.note output
   fin.entry
 }
@@ -1141,6 +1149,8 @@ FUNCTION {mastersthesis}
   bbl.mthesis format.thesis.type output.nonnull
   school "school" output.check
   address output
+  output.doi output
+  new.block
   format.note output
   fin.entry
 }
@@ -1155,6 +1165,8 @@ FUNCTION {misc}
   format.title output
   end.quote.title
   howpublished output
+  new.block
+  output.doi output
   new.block
   output.doi output
   new.block
@@ -1191,6 +1203,8 @@ FUNCTION {proceedings}
   address output
   organization output
   publisher output
+  output.doi output
+  new.block
   format.note output
   fin.entry
 }
@@ -1207,6 +1221,8 @@ FUNCTION {techreport}
   format.tr.number output.nonnull
   institution "institution" output.check
   address output
+  output.doi output
+  new.block
   format.note output
   fin.entry
 }
@@ -1537,4 +1553,4 @@ FUNCTION {end.bib}
 EXECUTE {end.bib}
 %% End of customized bst file
 %%
-%% End of file `asa.bst'.
+%% End of file `asadoi.bst'.
